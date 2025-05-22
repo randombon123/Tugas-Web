@@ -1,0 +1,20 @@
+@keyframes fadeUp {
+    0% {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.scroll-fade {
+    opacity: 0;
+    animation: fadeUp 1s ease-out forwards;
+    animation-delay: 0.2s;
+    view-timeline-name: --scroll-fade;
+    view-timeline-axis: block;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}

@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background-color: #fffdf5;
+    color: #333;
+}
+
+header {
+    background-color: #f8b400;
+    padding: 2rem;
+    text-align: center;
+    color: white;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 2rem;
+    gap: 1.5rem;
+}
+
+.menu-item {
+    background-color: #fdfdfd;
+    border: 1px solid #f3d009;
+    border-radius: 10px;
+    width: 250px;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.menu-item:hover {
+    transform: scale(1.05);
+}
+
+.menu-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.menu-item img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+body {
+    background: linear-gradient(to bottom right, #fff8e1, #ffe0b2);
+    color: #333;
+}
+body {
+    background-image: url('Bolu Meranti.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #333;
+}
+.menu-item, .detail-container {
+    background-color: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(4px);
+}
